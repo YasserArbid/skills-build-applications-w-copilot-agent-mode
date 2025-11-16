@@ -1,0 +1,142 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff9800;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Bootstrap Table Customization */
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+thead.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+tbody tr {
+  transition: background 0.2s;
+}
+tbody tr:hover {
+  background: #e3f2fd;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #00c6ff 0%, #007bff 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+  border: none;
+}
+.btn-danger {
+  background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+  border: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: 700;
+}
+h2.text-warning {
+  color: #ff9800 !important;
+}
+h2.text-success {
+  color: #43e97b !important;
+}
+h2.text-info {
+  color: #00c6ff !important;
+}
+h2.text-danger {
+  color: #f857a6 !important;
+}
+
+/* Navigation */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 8px;
+}
+.navbar-nav .nav-link.active {
+  color: #ffd200 !important;
+}
+
+/* Card Customization */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  margin-bottom: 24px;
+}
+.card-title {
+  color: #007bff;
+}
+.card-text {
+  color: #222;
+}
+
+/* Favicon and logo styles */
+link[rel="icon"] {
+  border-radius: 50%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
